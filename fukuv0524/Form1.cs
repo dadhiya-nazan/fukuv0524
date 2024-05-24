@@ -6,5 +6,31 @@ namespace fukuv0524
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left - 20;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Left = label1.Left + 20;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top - 20;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label1.Top = label1.Top + 20;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "’·ú±—N“l";
+            label1.ForeColor = Color.Red;
+        }
     }
 }
