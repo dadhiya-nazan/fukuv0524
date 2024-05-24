@@ -10,21 +10,25 @@ namespace fukuv0524
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left - 20;
+            label1.Text = "左に行くよ";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left + 20;
+            label1.Text = "右に行くよ";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top - 20;
+            label1.Text = "上に行くよ";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top + 20;
+            label1.Text = "下に行くよ";
         }
 
         private void label1_Click(object sender, EventArgs e)
